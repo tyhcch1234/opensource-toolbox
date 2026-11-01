@@ -1,0 +1,870 @@
+{
+ "categories": [
+  {
+   "id": "ai",
+   "name": "AI 與機器學習",
+   "icon": "spark",
+   "desc": "本地跑模型、生成圖像與建構 AI 應用"
+  },
+  {
+   "id": "dev",
+   "name": "開發與編程",
+   "icon": "code",
+   "desc": "編輯器、終端機與版本控制"
+  },
+  {
+   "id": "web",
+   "name": "前端與 Web",
+   "icon": "browser",
+   "desc": "框架、樣式與建置工具"
+  },
+  {
+   "id": "infra",
+   "name": "後端與基建",
+   "icon": "server",
+   "desc": "容器、資料庫與可觀測性"
+  },
+  {
+   "id": "data",
+   "name": "資料庫與數據",
+   "icon": "database",
+   "desc": "儲存、分析與資料科學"
+  },
+  {
+   "id": "productivity",
+   "name": "效率與自動化",
+   "icon": "bolt",
+   "desc": "工作流、筆記與日常小工具"
+  },
+  {
+   "id": "design",
+   "name": "設計與創作",
+   "icon": "pen",
+   "desc": "3D、繪圖、修圖與原型"
+  },
+  {
+   "id": "media",
+   "name": "影音與下載",
+   "icon": "play",
+   "desc": "播放、剪輯、轉檔與下載"
+  },
+  {
+   "id": "security",
+   "name": "安全與隱私",
+   "icon": "shield",
+   "desc": "密碼、加密與網絡安全"
+  },
+  {
+   "id": "system",
+   "name": "系統與終端",
+   "icon": "terminal",
+   "desc": "開機、監控與系統工具"
+  }
+ ],
+ "tools": [
+  {
+   "repo": "ollama/ollama",
+   "cat": "ai",
+   "desc": "一行指令在本機跑 Llama、Qwen、DeepSeek 等開源大模型，附 OpenAI 相容 API。",
+   "tags": [
+    "本地推理",
+    "CLI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "ggml-org/llama.cpp",
+   "cat": "ai",
+   "desc": "純 C/C++ 的大模型推理引擎，CPU、GPU 都能跑，是大量本地 AI 工具的底層。",
+   "tags": [
+    "推理引擎",
+    "C++"
+   ],
+   "online": null
+  },
+  {
+   "repo": "huggingface/transformers",
+   "cat": "ai",
+   "desc": "Hugging Face 官方模型庫，數十萬個預訓練模型，NLP／視覺／語音的標準入口。",
+   "tags": [
+    "模型庫",
+    "Python"
+   ],
+   "online": "https://huggingface.co/models"
+  },
+  {
+   "repo": "langchain-ai/langchain",
+   "cat": "ai",
+   "desc": "建構 LLM 應用的框架：串接模型、工具、記憶與 RAG 檢索。",
+   "tags": [
+    "Agent",
+    "RAG"
+   ],
+   "online": null
+  },
+  {
+   "repo": "comfyanonymous/ComfyUI",
+   "cat": "ai",
+   "desc": "節點式 Stable Diffusion／Flux 介面，出圖流程可視化，社群工作流最豐富。",
+   "tags": [
+    "圖像生成",
+    "節點"
+   ],
+   "online": null
+  },
+  {
+   "repo": "AUTOMATIC1111/stable-diffusion-webui",
+   "cat": "ai",
+   "desc": "經典的 SD WebUI，外掛生態完整，適合快速上手圖像生成。",
+   "tags": [
+    "圖像生成",
+    "WebUI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "vllm-project/vllm",
+   "cat": "ai",
+   "desc": "高吞吐量 LLM 推理與服務引擎，PagedAttention 大幅提升 GPU 使用率。",
+   "tags": [
+    "推理服務",
+    "GPU"
+   ],
+   "online": null
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "cat": "ai",
+   "desc": "自架的 ChatGPT 風格介面，可接 Ollama 或任何 OpenAI 相容 API，支援多用戶。",
+   "tags": [
+    "聊天介面",
+    "自架"
+   ],
+   "online": null
+  },
+  {
+   "repo": "microsoft/vscode",
+   "cat": "dev",
+   "desc": "最普及的程式編輯器，擴充套件生態龐大，支援幾乎所有語言。",
+   "tags": [
+    "編輯器",
+    "跨平台"
+   ],
+   "online": "https://vscode.dev"
+  },
+  {
+   "repo": "neovim/neovim",
+   "cat": "dev",
+   "desc": "Vim 的現代重寫版：Lua 設定、非同步外掛、內建 LSP，終端編輯器的首選。",
+   "tags": [
+    "編輯器",
+    "Vim"
+   ],
+   "online": null
+  },
+  {
+   "repo": "git/git",
+   "cat": "dev",
+   "desc": "分散式版本控制的根基，幾乎所有程式碼协作流程都建在它之上。",
+   "tags": [
+    "版本控制"
+   ],
+   "online": null
+  },
+  {
+   "repo": "ohmyzsh/ohmyzsh",
+   "cat": "dev",
+   "desc": "Zsh 設定框架，一句話裝好主題與數百個外掛，終端機瞬間好用。",
+   "tags": [
+    "Shell",
+    "主題"
+   ],
+   "online": null
+  },
+  {
+   "repo": "jesseduffield/lazygit",
+   "cat": "dev",
+   "desc": "終端機裡的 Git 圖形介面，分支、rebase、stash 都用快捷鍵完成。",
+   "tags": [
+    "Git",
+    "TUI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "BurntSushi/ripgrep",
+   "cat": "dev",
+   "desc": "極快的程式碼全文搜尋工具，自動遵守 .gitignore，rg 已成都市傳說。",
+   "tags": [
+    "搜尋",
+    "CLI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "junegunn/fzf",
+   "cat": "dev",
+   "desc": "通用模糊搜尋器，可接檔案、歷史指令、分支，裝上就回不去了。",
+   "tags": [
+    "模糊搜尋",
+    "CLI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "cli/cli",
+   "cat": "dev",
+   "desc": "GitHub 官方命令列工具 gh：開 PR、看 issue、跑 Actions 都不用開瀏覽器。",
+   "tags": [
+    "GitHub",
+    "CLI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "facebook/react",
+   "cat": "web",
+   "desc": "元件化的 UI 函式庫，生態最大，Next.js、React Native 都建於其上。",
+   "tags": [
+    "UI 框架",
+    "JS"
+   ],
+   "online": null
+  },
+  {
+   "repo": "vuejs/core",
+   "cat": "web",
+   "desc": "漸進式前端框架，範本語法直覺，學習曲線平緩。",
+   "tags": [
+    "UI 框架",
+    "JS"
+   ],
+   "online": "https://play.vuejs.org"
+  },
+  {
+   "repo": "tailwindlabs/tailwindcss",
+   "cat": "web",
+   "desc": "原子化 CSS 框架，直接在 class 寫樣式，設計一致性與速度兼得。",
+   "tags": [
+    "CSS"
+   ],
+   "online": "https://play.tailwindcss.com"
+  },
+  {
+   "repo": "vitejs/vite",
+   "cat": "web",
+   "desc": "新一代前端建置工具，開發伺服器秒啟動，已成 Vue／React 專案預設。",
+   "tags": [
+    "建置",
+    "工具鏈"
+   ],
+   "online": null
+  },
+  {
+   "repo": "vercel/next.js",
+   "cat": "web",
+   "desc": "React 全端框架，支援 SSR、ISR、Server Actions 與檔案式路由。",
+   "tags": [
+    "全端",
+    "React"
+   ],
+   "online": null
+  },
+  {
+   "repo": "sveltejs/svelte",
+   "cat": "web",
+   "desc": "編譯式框架，執行期極輕，寫法接近原生 HTML/JS。",
+   "tags": [
+    "UI 框架",
+    "JS"
+   ],
+   "online": "https://svelte.dev/playground"
+  },
+  {
+   "repo": "shadcn-ui/ui",
+   "cat": "web",
+   "desc": "可複製進專案的元件庫（不是 npm 套件），基於 Radix + Tailwind，改動完全自由。",
+   "tags": [
+    "元件庫",
+    "Tailwind"
+   ],
+   "online": "https://ui.shadcn.com"
+  },
+  {
+   "repo": "axios/axios",
+   "cat": "web",
+   "desc": "最常用的 HTTP 客戶端，攔截器、取消請求、自動 JSON 轉換一應俱全。",
+   "tags": [
+    "HTTP",
+    "JS"
+   ],
+   "online": null
+  },
+  {
+   "repo": "kubernetes/kubernetes",
+   "cat": "infra",
+   "desc": "容器编排的事實標準，自動部署、擴縮與自我修復。",
+   "tags": [
+    "容器",
+    "编排"
+   ],
+   "online": null
+  },
+  {
+   "repo": "redis/redis",
+   "cat": "infra",
+   "desc": "記憶體鍵值資料庫，快取、佇列、即時排行榜的萬用選擇。",
+   "tags": [
+    "快取",
+    "NoSQL"
+   ],
+   "online": null
+  },
+  {
+   "repo": "postgres/postgres",
+   "cat": "infra",
+   "desc": "功能最完整的開源關聯式資料庫，JSON、全文檢索、地理資料都內建。",
+   "tags": [
+    "SQL",
+    "資料庫"
+   ],
+   "online": null
+  },
+  {
+   "repo": "nginx/nginx",
+   "cat": "infra",
+   "desc": "高效能反向代理與網頁伺服器，靜態檔案、負載平衡與 TLS 終結的標配。",
+   "tags": [
+    "伺服器",
+    "代理"
+   ],
+   "online": null
+  },
+  {
+   "repo": "traefik/traefik",
+   "cat": "infra",
+   "desc": "雲原生反向代理，自動感測容器與 K8s 服務並產生路由與憑證。",
+   "tags": [
+    "代理",
+    "雲原生"
+   ],
+   "online": null
+  },
+  {
+   "repo": "grafana/grafana",
+   "cat": "infra",
+   "desc": "可視化儀表板，接 Prometheus、Loki、MySQL 等數十種資料源。",
+   "tags": [
+    "監控",
+    "儀表板"
+   ],
+   "online": "https://play.grafana.org"
+  },
+  {
+   "repo": "prometheus/prometheus",
+   "cat": "infra",
+   "desc": "指標監控與告警系統，Pull 模型加 PromQL，雲原生監控的核心。",
+   "tags": [
+    "監控",
+    "指標"
+   ],
+   "online": null
+  },
+  {
+   "repo": "moby/moby",
+   "cat": "infra",
+   "desc": "Docker 引擎的開源上游，容器打包與執行的基礎。",
+   "tags": [
+    "容器",
+    "Docker"
+   ],
+   "online": null
+  },
+  {
+   "repo": "supabase/supabase",
+   "cat": "data",
+   "desc": "開源 Firebase 替代品：Postgres + 認證 + 儲存 + 即時訂閱 + 自動 API。",
+   "tags": [
+    "BaaS",
+    "Postgres"
+   ],
+   "online": "https://supabase.com/dashboard"
+  },
+  {
+   "repo": "pocketbase/pocketbase",
+   "cat": "data",
+   "desc": "單一執行檔的後端：資料庫、認證、檔案儲存與管理後台一次搞定。",
+   "tags": [
+    "BaaS",
+    "Go"
+   ],
+   "online": null
+  },
+  {
+   "repo": "duckdb/duckdb",
+   "cat": "data",
+   "desc": "嵌入式分析型資料庫，直接對 CSV／Parquet 下 SQL，速度驚人。",
+   "tags": [
+    "OLAP",
+    "分析"
+   ],
+   "online": null
+  },
+  {
+   "repo": "ClickHouse/ClickHouse",
+   "cat": "data",
+   "desc": "列式資料庫，每秒可掃描數億行，日誌與事件分析的利器。",
+   "tags": [
+    "OLAP",
+    "大數據"
+   ],
+   "online": null
+  },
+  {
+   "repo": "apache/superset",
+   "cat": "data",
+   "desc": "企業級 BI 平台，拖拉式建立圖表與儀表板，可接數十種資料庫。",
+   "tags": [
+    "BI",
+    "視覺化"
+   ],
+   "online": null
+  },
+  {
+   "repo": "metabase/metabase",
+   "cat": "data",
+   "desc": "給非工程師用的 BI 工具，點幾下就能出報表，SQL 與圖形介面並存。",
+   "tags": [
+    "BI",
+    "報表"
+   ],
+   "online": null
+  },
+  {
+   "repo": "jupyter/notebook",
+   "cat": "data",
+   "desc": "筆記本式運算環境，程式碼、圖表與說明文字混排，資料分析標配。",
+   "tags": [
+    "Notebook",
+    "Python"
+   ],
+   "online": "https://jupyter.org/try"
+  },
+  {
+   "repo": "pandas-dev/pandas",
+   "cat": "data",
+   "desc": "Python 資料處理的基石，DataFrame 讓清洗與聚合變得簡潔。",
+   "tags": [
+    "資料分析",
+    "Python"
+   ],
+   "online": null
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "cat": "productivity",
+   "desc": "節點式自動化平台，串接 400+ 服務，可自架，Zapier 的開源替代。",
+   "tags": [
+    "自動化",
+    "工作流"
+   ],
+   "online": null
+  },
+  {
+   "repo": "home-assistant/core",
+   "cat": "productivity",
+   "desc": "開源智能家居中樞，本地控制數千種裝置，隱私不外流。",
+   "tags": [
+    "智能家居",
+    "IoT"
+   ],
+   "online": "https://demo.home-assistant.io"
+  },
+  {
+   "repo": "rclone/rclone",
+   "cat": "productivity",
+   "desc": "雲端硬碟的 rsync：Google Drive、S3、OneDrive 之間同步與掛載。",
+   "tags": [
+    "同步",
+    "雲端"
+   ],
+   "online": null
+  },
+  {
+   "repo": "hoppscotch/hoppscotch",
+   "cat": "productivity",
+   "desc": "瀏覽器裡的 API 測試工具，Postman 的開源輕量替代，免登入即用。",
+   "tags": [
+    "API",
+    "測試"
+   ],
+   "online": "https://hoppscotch.io"
+  },
+  {
+   "repo": "CorentinTh/it-tools",
+   "cat": "productivity",
+   "desc": "上百個開發者小工具集合：JSON 格式化、時間戳、雜湊、QR code 等。",
+   "tags": [
+    "工具箱",
+    "前端"
+   ],
+   "online": "https://it-tools.tech"
+  },
+  {
+   "repo": "logseq/logseq",
+   "cat": "productivity",
+   "desc": "大綱式雙向連結筆記，本地 Markdown 儲存，隱私優先的知識庫。",
+   "tags": [
+    "筆記",
+    "知識管理"
+   ],
+   "online": null
+  },
+  {
+   "repo": "laurent22/joplin",
+   "cat": "productivity",
+   "desc": "跨平台 Markdown 筆記，端對端加密同步，可自架 Joplin Server。",
+   "tags": [
+    "筆記",
+    "加密"
+   ],
+   "online": null
+  },
+  {
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "cat": "productivity",
+   "desc": "自架的 PDF 瑞士刀：合併、拆分、壓縮、OCR、轉檔，全部在本機處理。",
+   "tags": [
+    "PDF",
+    "自架"
+   ],
+   "online": null
+  },
+  {
+   "repo": "appflowy-io/appflowy",
+   "cat": "productivity",
+   "desc": "開源 Notion 替代品，文件、看板、日曆與 AI 協作於一身。",
+   "tags": [
+    "協作",
+    "Notion 替代"
+   ],
+   "online": null
+  },
+  {
+   "repo": "blender/blender",
+   "cat": "design",
+   "desc": "專業級 3D 創作套件：建模、雕刻、動畫、渲染與影片剪輯。",
+   "tags": [
+    "3D",
+    "動畫"
+   ],
+   "online": null
+  },
+  {
+   "repo": "excalidraw/excalidraw",
+   "cat": "design",
+   "desc": "手繪風白板，畫架構圖與流程圖最快，免登入可直接在瀏覽器用。",
+   "tags": [
+    "白板",
+    "繪圖"
+   ],
+   "online": "https://excalidraw.com"
+  },
+  {
+   "repo": "tldraw/tldraw",
+   "cat": "design",
+   "desc": "無限畫布白板引擎，互動手感極佳，可嵌入自己的產品。",
+   "tags": [
+    "白板",
+    "Canvas"
+   ],
+   "online": "https://tldraw.com"
+  },
+  {
+   "repo": "penpot/penpot",
+   "cat": "design",
+   "desc": "開源設計協作平台，Figma 的替代方案，基於網頁與 SVG。",
+   "tags": [
+    "UI 設計",
+    "協作"
+   ],
+   "online": null
+  },
+  {
+   "repo": "inkscape/inkscape",
+   "cat": "design",
+   "desc": "向量繪圖軟體，Illustrator 的開源對應，SVG 原生支援。",
+   "tags": [
+    "向量",
+    "SVG"
+   ],
+   "online": null
+  },
+  {
+   "repo": "GNOME/gimp",
+   "cat": "design",
+   "desc": "點陣影像編輯器，修圖、合成、批處理，Photoshop 的經典替代。",
+   "tags": [
+    "修圖",
+    "點陣"
+   ],
+   "online": null
+  },
+  {
+   "repo": "jgraph/drawio",
+   "cat": "design",
+   "desc": "專業圖表工具，流程圖、UML、網絡拓撲都能畫，網頁版即開即用。",
+   "tags": [
+    "圖表",
+    "流程圖"
+   ],
+   "online": "https://app.diagrams.net"
+  },
+  {
+   "repo": "GoogleChromeLabs/squoosh",
+   "cat": "design",
+   "desc": "瀏覽器內圖片壓縮，支援 WebP／AVIF，壓縮前後即時對比。",
+   "tags": [
+    "圖片壓縮",
+    "Web"
+   ],
+   "online": "https://squoosh.app"
+  },
+  {
+   "repo": "FFmpeg/FFmpeg",
+   "cat": "media",
+   "desc": "影音處理的萬能瑞士刀，轉檔、剪輯、串流，幾乎所有播放器都靠它。",
+   "tags": [
+    "轉檔",
+    "CLI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "videolan/vlc",
+   "cat": "media",
+   "desc": "什麼格式都能播的播放器，跨平台、可串流、可當簡易伺服器。",
+   "tags": [
+    "播放器"
+   ],
+   "online": null
+  },
+  {
+   "repo": "mpv-player/mpv",
+   "cat": "media",
+   "desc": "極簡高效的播放器，腳本與設定檔高度可定制，發燒友最愛。",
+   "tags": [
+    "播放器",
+    "極簡"
+   ],
+   "online": null
+  },
+  {
+   "repo": "yt-dlp/yt-dlp",
+   "cat": "media",
+   "desc": "YouTube 與上千網站的影片下載器，yt-dlp 是 youtube-dl 的活躍分支。",
+   "tags": [
+    "下載",
+    "CLI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "jellyfin/jellyfin",
+   "cat": "media",
+   "desc": "自架媒體中心，電影、劇集、音樂自動刮削海報，Plex 的開源替代。",
+   "tags": [
+    "媒體中心",
+    "自架"
+   ],
+   "online": null
+  },
+  {
+   "repo": "obsproject/obs-studio",
+   "cat": "media",
+   "desc": "直播與螢幕錄影的標準工具，場景切換、多來源、外掛豐富。",
+   "tags": [
+    "直播",
+    "錄影"
+   ],
+   "online": null
+  },
+  {
+   "repo": "KDE/kdenlive",
+   "cat": "media",
+   "desc": "非線性影片剪輯，多軌時間軸、轉場與調色，免費且專業。",
+   "tags": [
+    "剪輯",
+    "影片"
+   ],
+   "online": null
+  },
+  {
+   "repo": "HandBrake/HandBrake",
+   "cat": "media",
+   "desc": "影片轉檔與壓縮，預設集齊全，把大檔案縮小又不明顯掉畫質。",
+   "tags": [
+    "轉檔",
+    "壓縮"
+   ],
+   "online": null
+  },
+  {
+   "repo": "keepassxreboot/keepassxc",
+   "cat": "security",
+   "desc": "離線密碼管理器，資料庫加密存放本機，可配瀏覽器外掛自動填寫。",
+   "tags": [
+    "密碼",
+    "離線"
+   ],
+   "online": null
+  },
+  {
+   "repo": "bitwarden/clients",
+   "cat": "security",
+   "desc": "Bitwarden 各平台客戶端，雲端同步密碼，也可自架伺服器。",
+   "tags": [
+    "密碼",
+    "同步"
+   ],
+   "online": "https://vault.bitwarden.com"
+  },
+  {
+   "repo": "tailscale/tailscale",
+   "cat": "security",
+   "desc": "基於 WireGuard 的零設定 VPN，把家中與公司裝置組成私有網段。",
+   "tags": [
+    "VPN",
+    "WireGuard"
+   ],
+   "online": null
+  },
+  {
+   "repo": "wireshark/wireshark",
+   "cat": "security",
+   "desc": "封包分析器，深入檢視網絡流量，排查協定問題的第一選擇。",
+   "tags": [
+    "封包",
+    "分析"
+   ],
+   "online": null
+  },
+  {
+   "repo": "signalapp/Signal-Desktop",
+   "cat": "security",
+   "desc": "端對端加密通訊的桌面客戶端，開源、無廣告、不留痕。",
+   "tags": [
+    "加密通訊"
+   ],
+   "online": null
+  },
+  {
+   "repo": "OpenVPN/openvpn",
+   "cat": "security",
+   "desc": "成熟的 SSL VPN 方案，自建隧道、憑證管理完整。",
+   "tags": [
+    "VPN"
+   ],
+   "online": null
+  },
+  {
+   "repo": "veracrypt/VeraCrypt",
+   "cat": "security",
+   "desc": "磁碟加密工具，可建立隱藏卷，TrueCrypt 的正統接班人。",
+   "tags": [
+    "磁碟加密"
+   ],
+   "online": null
+  },
+  {
+   "repo": "hashcat/hashcat",
+   "cat": "security",
+   "desc": "GPU 加速的密碼破解工具，也用來稽核自家密碼強度與雜湊策略。",
+   "tags": [
+    "雜湊",
+    "GPU"
+   ],
+   "online": null
+  },
+  {
+   "repo": "torvalds/linux",
+   "cat": "system",
+   "desc": "Linux 核心本體，Android、伺服器與全球大半裝置的基礎。",
+   "tags": [
+    "核心",
+    "C"
+   ],
+   "online": null
+  },
+  {
+   "repo": "tmux/tmux",
+   "cat": "system",
+   "desc": "終端機多工器，分割視窗、工作階段保持，遠端工作的必需品。",
+   "tags": [
+    "終端機",
+    "多工"
+   ],
+   "online": null
+  },
+  {
+   "repo": "microsoft/terminal",
+   "cat": "system",
+   "desc": "Windows 的現代終端機，支援分頁、GPU 渲染與 emoji。",
+   "tags": [
+    "終端機",
+    "Windows"
+   ],
+   "online": null
+  },
+  {
+   "repo": "PowerShell/PowerShell",
+   "cat": "system",
+   "desc": "跨平台的自動化腳本語言與 Shell，物件化管線比 bash 更結構化。",
+   "tags": [
+    "Shell",
+    "自動化"
+   ],
+   "online": null
+  },
+  {
+   "repo": "nushell/nushell",
+   "cat": "system",
+   "desc": "把 Shell 輸出變成結構化表格的新式 Shell，跨平台且型別安全。",
+   "tags": [
+    "Shell",
+    "Rust"
+   ],
+   "online": null
+  },
+  {
+   "repo": "aristocratos/btop",
+   "cat": "system",
+   "desc": "漂亮的資源監控器，CPU、記憶體、網絡、磁碟一目了然。",
+   "tags": [
+    "監控",
+    "TUI"
+   ],
+   "online": null
+  },
+  {
+   "repo": "Ventoy/Ventoy",
+   "cat": "system",
+   "desc": "把多個 ISO 丟進同一支 USB 就能開機選單，免反覆燒錄。",
+   "tags": [
+    "開機碟",
+    "USB"
+   ],
+   "online": null
+  },
+  {
+   "repo": "pbatard/rufus",
+   "cat": "system",
+   "desc": "Windows 上製作開機 USB 的老牌工具，簡單可靠、支援 UEFI。",
+   "tags": [
+    "開機碟",
+    "Windows"
+   ],
+   "online": null
+  }
+ ]
+}

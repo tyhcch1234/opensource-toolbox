@@ -1,0 +1,1426 @@
+{
+ "ollama/ollama": {
+  "ok": true,
+  "full_name": "ollama/ollama",
+  "url": "https://github.com/ollama/ollama",
+  "stars": 185514,
+  "forks": 18816,
+  "lang": "Go",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "deepseek",
+   "gemma",
+   "glm",
+   "go",
+   "golang",
+   "gpt-oss"
+  ]
+ },
+ "ggml-org/llama.cpp": {
+  "ok": true,
+  "full_name": "ggml-org/llama.cpp",
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "stars": 133021,
+  "forks": 25017,
+  "lang": "C++",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "ggml"
+  ]
+ },
+ "huggingface/transformers": {
+  "ok": true,
+  "full_name": "huggingface/transformers",
+  "url": "https://github.com/huggingface/transformers",
+  "stars": 168400,
+  "forks": 35066,
+  "lang": "Python",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "audio",
+   "deep-learning",
+   "deepseek",
+   "gemma",
+   "glm",
+   "hacktoberfest"
+  ]
+ },
+ "langchain-ai/langchain": {
+  "ok": true,
+  "full_name": "langchain-ai/langchain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "stars": 148799,
+  "forks": 25011,
+  "lang": "Python",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "agents",
+   "ai",
+   "ai-agents",
+   "anthropic",
+   "chatgpt",
+   "deepagents"
+  ]
+ },
+ "comfyanonymous/ComfyUI": {
+  "ok": true,
+  "full_name": "Comfy-Org/ComfyUI",
+  "url": "https://github.com/Comfy-Org/ComfyUI",
+  "stars": 144396,
+  "forks": 17180,
+  "lang": "Python",
+  "license": "GPL-3.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "ai",
+   "comfy",
+   "comfyui",
+   "python",
+   "pytorch",
+   "stable-diffusion"
+  ]
+ },
+ "AUTOMATIC1111/stable-diffusion-webui": {
+  "ok": true,
+  "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "stars": 165207,
+  "forks": 31914,
+  "lang": "Python",
+  "license": "AGPL-3.0",
+  "archived": false,
+  "pushed": "2026-03-02",
+  "topics": [
+   "ai",
+   "ai-art",
+   "deep-learning",
+   "diffusion",
+   "gradio",
+   "image-generation"
+  ]
+ },
+ "vllm-project/vllm": {
+  "ok": true,
+  "full_name": "vllm-project/vllm",
+  "url": "https://github.com/vllm-project/vllm",
+  "stars": 96022,
+  "forks": 24239,
+  "lang": "Python",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "amd",
+   "blackwell",
+   "cuda",
+   "deepseek",
+   "deepseek-v3",
+   "gpt"
+  ]
+ },
+ "open-webui/open-webui": {
+  "ok": true,
+  "full_name": "open-webui/open-webui",
+  "url": "https://github.com/open-webui/open-webui",
+  "stars": 157433,
+  "forks": 22889,
+  "lang": "Python",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "ai",
+   "llm",
+   "llm-ui",
+   "llm-webui",
+   "llms",
+   "mcp"
+  ]
+ },
+ "microsoft/vscode": {
+  "ok": true,
+  "full_name": "microsoft/vscode",
+  "url": "https://github.com/microsoft/vscode",
+  "stars": 194440,
+  "forks": 44343,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "editor",
+   "electron",
+   "microsoft",
+   "typescript",
+   "visual-studio-code"
+  ]
+ },
+ "neovim/neovim": {
+  "ok": true,
+  "full_name": "neovim/neovim",
+  "url": "https://github.com/neovim/neovim",
+  "stars": 103274,
+  "forks": 7369,
+  "lang": "Vim Script",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "api",
+   "c",
+   "lua",
+   "neovim",
+   "nvim",
+   "text-editor"
+  ]
+ },
+ "git/git": {
+  "ok": true,
+  "full_name": "git/git",
+  "url": "https://github.com/git/git",
+  "stars": 64105,
+  "forks": 28721,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "c",
+   "hacktoberfest",
+   "shell"
+  ]
+ },
+ "ohmyzsh/ohmyzsh": {
+  "ok": true,
+  "full_name": "ohmyzsh/ohmyzsh",
+  "url": "https://github.com/ohmyzsh/ohmyzsh",
+  "stars": 190277,
+  "forks": 28047,
+  "lang": "Shell",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-27",
+  "topics": [
+   "cli",
+   "cli-app",
+   "oh-my-zsh",
+   "oh-my-zsh-plugin",
+   "oh-my-zsh-theme",
+   "ohmyzsh"
+  ]
+ },
+ "jesseduffield/lazygit": {
+  "ok": true,
+  "full_name": "jesseduffield/lazygit",
+  "url": "https://github.com/jesseduffield/lazygit",
+  "stars": 83576,
+  "forks": 3240,
+  "lang": "Go",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "cli",
+   "git",
+   "terminal"
+  ]
+ },
+ "BurntSushi/ripgrep": {
+  "ok": true,
+  "full_name": "BurntSushi/ripgrep",
+  "url": "https://github.com/BurntSushi/ripgrep",
+  "stars": 69599,
+  "forks": 4195,
+  "lang": "Rust",
+  "license": "Unlicense",
+  "archived": false,
+  "pushed": "2026-10-27",
+  "topics": [
+   "cli",
+   "command-line",
+   "command-line-tool",
+   "gitignore",
+   "grep",
+   "recursively-search"
+  ]
+ },
+ "junegunn/fzf": {
+  "ok": true,
+  "full_name": "junegunn/fzf",
+  "url": "https://github.com/junegunn/fzf",
+  "stars": 83894,
+  "forks": 4168,
+  "lang": "Go",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-29",
+  "topics": [
+   "bash",
+   "cli",
+   "fish",
+   "fzf",
+   "go",
+   "neovim"
+  ]
+ },
+ "cli/cli": {
+  "ok": true,
+  "full_name": "cli/cli",
+  "url": "https://github.com/cli/cli",
+  "stars": 46830,
+  "forks": 9232,
+  "lang": "Go",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "cli",
+   "git",
+   "github-api-v4",
+   "golang"
+  ]
+ },
+ "facebook/react": {
+  "ok": true,
+  "full_name": "react/react",
+  "url": "https://github.com/react/react",
+  "stars": 252060,
+  "forks": 51606,
+  "lang": "JavaScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "declarative",
+   "frontend",
+   "javascript",
+   "library",
+   "react",
+   "ui"
+  ]
+ },
+ "vuejs/core": {
+  "ok": true,
+  "full_name": "vuejs/core",
+  "url": "https://github.com/vuejs/core",
+  "stars": 55019,
+  "forks": 9268,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": []
+ },
+ "tailwindlabs/tailwindcss": {
+  "ok": true,
+  "full_name": "tailwindlabs/tailwindcss",
+  "url": "https://github.com/tailwindlabs/tailwindcss",
+  "stars": 98271,
+  "forks": 7103,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-19",
+  "topics": [
+   "css",
+   "css-framework",
+   "functional-css",
+   "postcss",
+   "responsive",
+   "tailwindcss"
+  ]
+ },
+ "vitejs/vite": {
+  "ok": true,
+  "full_name": "vitejs/vite",
+  "url": "https://github.com/vitejs/vite",
+  "stars": 83649,
+  "forks": 9037,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "build-tool",
+   "dev-server",
+   "frontend",
+   "hmr",
+   "vite"
+  ]
+ },
+ "vercel/next.js": {
+  "ok": true,
+  "full_name": "vercel/next.js",
+  "url": "https://github.com/vercel/next.js",
+  "stars": 143462,
+  "forks": 33585,
+  "lang": "JavaScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "blog",
+   "browser",
+   "compiler",
+   "components",
+   "hybrid",
+   "nextjs"
+  ]
+ },
+ "sveltejs/svelte": {
+  "ok": true,
+  "full_name": "sveltejs/svelte",
+  "url": "https://github.com/sveltejs/svelte",
+  "stars": 88515,
+  "forks": 6833,
+  "lang": "JavaScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "compiler",
+   "template",
+   "ui"
+  ]
+ },
+ "shadcn-ui/ui": {
+  "ok": true,
+  "full_name": "shadcn-ui/ui",
+  "url": "https://github.com/shadcn-ui/ui",
+  "stars": 127085,
+  "forks": 11988,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "ai",
+   "base-ui",
+   "components",
+   "gen-ui",
+   "generative-ai",
+   "generative-ui"
+  ]
+ },
+ "axios/axios": {
+  "ok": true,
+  "full_name": "axios/axios",
+  "url": "https://github.com/axios/axios",
+  "stars": 109307,
+  "forks": 11979,
+  "lang": "JavaScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-28",
+  "topics": [
+   "hacktoberfest",
+   "http-client",
+   "javascript",
+   "nodejs",
+   "promise"
+  ]
+ },
+ "kubernetes/kubernetes": {
+  "ok": true,
+  "full_name": "kubernetes/kubernetes",
+  "url": "https://github.com/kubernetes/kubernetes",
+  "stars": 128810,
+  "forks": 45729,
+  "lang": "Go",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "cncf",
+   "containers",
+   "go",
+   "kubernetes"
+  ]
+ },
+ "redis/redis": {
+  "ok": true,
+  "full_name": "redis/redis",
+  "url": "https://github.com/redis/redis",
+  "stars": 77127,
+  "forks": 25016,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "cache",
+   "caching",
+   "database",
+   "distributed-systems",
+   "in-memory",
+   "in-memory-database"
+  ]
+ },
+ "postgres/postgres": {
+  "ok": true,
+  "full_name": "postgres/postgres",
+  "url": "https://github.com/postgres/postgres",
+  "stars": 22658,
+  "forks": 6101,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": []
+ },
+ "nginx/nginx": {
+  "ok": true,
+  "full_name": "nginx/nginx",
+  "url": "https://github.com/nginx/nginx",
+  "stars": 32024,
+  "forks": 8391,
+  "lang": "C",
+  "license": "BSD-2-Clause",
+  "archived": false,
+  "pushed": "2026-10-29",
+  "topics": [
+   "content-cache",
+   "http",
+   "http2",
+   "http3",
+   "https",
+   "load-balancer"
+  ]
+ },
+ "traefik/traefik": {
+  "ok": true,
+  "full_name": "traefik/traefik",
+  "url": "https://github.com/traefik/traefik",
+  "stars": 65428,
+  "forks": 6297,
+  "lang": "Go",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "consul",
+   "docker",
+   "gateway",
+   "gatewayapi",
+   "go",
+   "golang"
+  ]
+ },
+ "grafana/grafana": {
+  "ok": true,
+  "full_name": "grafana/grafana",
+  "url": "https://github.com/grafana/grafana",
+  "stars": 77608,
+  "forks": 14890,
+  "lang": "TypeScript",
+  "license": "AGPL-3.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "alerting",
+   "analytics",
+   "business-intelligence",
+   "dashboard",
+   "data-visualization",
+   "elasticsearch"
+  ]
+ },
+ "prometheus/prometheus": {
+  "ok": true,
+  "full_name": "prometheus/prometheus",
+  "url": "https://github.com/prometheus/prometheus",
+  "stars": 66884,
+  "forks": 10955,
+  "lang": "Go",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "alerting",
+   "graphing",
+   "hacktoberfest",
+   "metrics",
+   "monitoring",
+   "prometheus"
+  ]
+ },
+ "moby/moby": {
+  "ok": true,
+  "full_name": "moby/moby",
+  "url": "https://github.com/moby/moby",
+  "stars": 72229,
+  "forks": 19313,
+  "lang": "Go",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "containers",
+   "docker",
+   "go",
+   "golang"
+  ]
+ },
+ "supabase/supabase": {
+  "ok": true,
+  "full_name": "supabase/supabase",
+  "url": "https://github.com/supabase/supabase",
+  "stars": 114391,
+  "forks": 15740,
+  "lang": "TypeScript",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "ai",
+   "alternative",
+   "auth",
+   "database",
+   "deno",
+   "embeddings"
+  ]
+ },
+ "pocketbase/pocketbase": {
+  "ok": true,
+  "full_name": "pocketbase/pocketbase",
+  "url": "https://github.com/pocketbase/pocketbase",
+  "stars": 61620,
+  "forks": 3756,
+  "lang": "Go",
+  "license": "MIT",
+  "archived": true,
+  "pushed": "2026-10-26",
+  "topics": [
+   "authentication",
+   "backend",
+   "golang",
+   "realtime"
+  ]
+ },
+ "duckdb/duckdb": {
+  "ok": true,
+  "full_name": "duckdb/duckdb",
+  "url": "https://github.com/duckdb/duckdb",
+  "stars": 42724,
+  "forks": 4148,
+  "lang": "C++",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "analytics",
+   "database",
+   "embedded-database",
+   "olap",
+   "sql"
+  ]
+ },
+ "ClickHouse/ClickHouse": {
+  "ok": true,
+  "full_name": "ClickHouse/ClickHouse",
+  "url": "https://github.com/ClickHouse/ClickHouse",
+  "stars": 50698,
+  "forks": 9194,
+  "lang": "C++",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "ai",
+   "analytics",
+   "big-data",
+   "clickhouse",
+   "cloud-native",
+   "cpp"
+  ]
+ },
+ "apache/superset": {
+  "ok": true,
+  "full_name": "apache/superset",
+  "url": "https://github.com/apache/superset",
+  "stars": 75383,
+  "forks": 18565,
+  "lang": "Python",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "analytics",
+   "apache",
+   "apache-superset",
+   "asf",
+   "bi",
+   "business-analytics"
+  ]
+ },
+ "metabase/metabase": {
+  "ok": true,
+  "full_name": "metabase/metabase",
+  "url": "https://github.com/metabase/metabase",
+  "stars": 50078,
+  "forks": 6966,
+  "lang": "Clojure",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "analytics",
+   "bi",
+   "business-intelligence",
+   "businessintelligence",
+   "clojure",
+   "dashboard"
+  ]
+ },
+ "jupyter/notebook": {
+  "ok": true,
+  "full_name": "jupyter/notebook",
+  "url": "https://github.com/jupyter/notebook",
+  "stars": 13458,
+  "forks": 5815,
+  "lang": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "closember",
+   "jupyter",
+   "jupyter-notebook",
+   "notebook"
+  ]
+ },
+ "pandas-dev/pandas": {
+  "ok": true,
+  "full_name": "pandas-dev/pandas",
+  "url": "https://github.com/pandas-dev/pandas",
+  "stars": 50278,
+  "forks": 20711,
+  "lang": "Python",
+  "license": "BSD-3-Clause",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "alignment",
+   "data-analysis",
+   "data-science",
+   "flexible",
+   "pandas",
+   "python"
+  ]
+ },
+ "n8n-io/n8n": {
+  "ok": true,
+  "full_name": "n8n-io/n8n",
+  "url": "https://github.com/n8n-io/n8n",
+  "stars": 209232,
+  "forks": 61338,
+  "lang": "TypeScript",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "ai",
+   "apis",
+   "automation",
+   "cli",
+   "data-flow",
+   "development"
+  ]
+ },
+ "home-assistant/core": {
+  "ok": true,
+  "full_name": "home-assistant/core",
+  "url": "https://github.com/home-assistant/core",
+  "stars": 91882,
+  "forks": 39176,
+  "lang": "Python",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "asyncio",
+   "hacktoberfest",
+   "home-automation",
+   "internet-of-things",
+   "iot",
+   "mqtt"
+  ]
+ },
+ "rclone/rclone": {
+  "ok": true,
+  "full_name": "rclone/rclone",
+  "url": "https://github.com/rclone/rclone",
+  "stars": 60686,
+  "forks": 5627,
+  "lang": "Go",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "azure-blob",
+   "azure-blob-storage",
+   "azure-files",
+   "backblaze-b2",
+   "cloud-storage",
+   "dropbox"
+  ]
+ },
+ "hoppscotch/hoppscotch": {
+  "ok": true,
+  "full_name": "hoppscotch/hoppscotch",
+  "url": "https://github.com/hoppscotch/hoppscotch",
+  "stars": 80713,
+  "forks": 6212,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "api",
+   "api-client",
+   "api-rest",
+   "api-testing",
+   "developer-tools",
+   "graphql"
+  ]
+ },
+ "CorentinTh/it-tools": {
+  "ok": true,
+  "full_name": "CorentinTh/it-tools",
+  "url": "https://github.com/CorentinTh/it-tools",
+  "stars": 41080,
+  "forks": 5549,
+  "lang": "Vue",
+  "license": "GPL-3.0",
+  "archived": false,
+  "pushed": "2026-10-27",
+  "topics": [
+   "converter",
+   "developer-productivity",
+   "developer-tools",
+   "frontend",
+   "javascript",
+   "productivity"
+  ]
+ },
+ "logseq/logseq": {
+  "ok": true,
+  "full_name": "logseq/logseq",
+  "url": "https://github.com/logseq/logseq",
+  "stars": 45439,
+  "forks": 2866,
+  "lang": "Clojure",
+  "license": "AGPL-3.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "clojure",
+   "clojurescript",
+   "git",
+   "graph",
+   "knowledge-base",
+   "knowledge-graph"
+  ]
+ },
+ "laurent22/joplin": {
+  "ok": true,
+  "full_name": "laurent22/joplin",
+  "url": "https://github.com/laurent22/joplin",
+  "stars": 56965,
+  "forks": 6380,
+  "lang": "TypeScript",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "android",
+   "dropbox",
+   "electron",
+   "enex-files",
+   "evernote",
+   "javascript"
+  ]
+ },
+ "Stirling-Tools/Stirling-PDF": {
+  "ok": true,
+  "full_name": "Stirling-Tools/Stirling-PDF",
+  "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+  "stars": 95487,
+  "forks": 10003,
+  "lang": "TypeScript",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "docker",
+   "hacktoberfest",
+   "java",
+   "pdf",
+   "pdf-converter",
+   "pdf-editor"
+  ]
+ },
+ "appflowy-io/appflowy": {
+  "ok": true,
+  "full_name": "AppFlowy-IO/AppFlowy",
+  "url": "https://github.com/AppFlowy-IO/AppFlowy",
+  "stars": 78057,
+  "forks": 6142,
+  "lang": "Dart",
+  "license": "AGPL-3.0",
+  "archived": false,
+  "pushed": "2026-10-28",
+  "topics": [
+   "blog",
+   "confluence-alternative",
+   "content-management",
+   "content-services",
+   "documentation",
+   "flutter"
+  ]
+ },
+ "blender/blender": {
+  "ok": true,
+  "full_name": "blender/blender",
+  "url": "https://github.com/blender/blender",
+  "stars": 21489,
+  "forks": 3480,
+  "lang": "C++",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "3d",
+   "animation",
+   "b3d",
+   "computer-graphics",
+   "modeling",
+   "rendering"
+  ]
+ },
+ "excalidraw/excalidraw": {
+  "ok": true,
+  "full_name": "excalidraw/excalidraw",
+  "url": "https://github.com/excalidraw/excalidraw",
+  "stars": 134955,
+  "forks": 15946,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "canvas",
+   "collaboration",
+   "diagrams",
+   "drawing",
+   "hacktoberfest",
+   "productivity"
+  ]
+ },
+ "tldraw/tldraw": {
+  "ok": true,
+  "full_name": "tldraw/tldraw",
+  "url": "https://github.com/tldraw/tldraw",
+  "stars": 51173,
+  "forks": 3596,
+  "lang": "TypeScript",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "canvas",
+   "collaboration",
+   "design",
+   "diagram",
+   "drawing",
+   "infinite"
+  ]
+ },
+ "penpot/penpot": {
+  "ok": true,
+  "full_name": "penpot/penpot",
+  "url": "https://github.com/penpot/penpot",
+  "stars": 61942,
+  "forks": 4343,
+  "lang": "Clojure",
+  "license": "MPL-2.0",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "clojure",
+   "clojurescript",
+   "design",
+   "prototyping",
+   "ui",
+   "ux-design"
+  ]
+ },
+ "inkscape/inkscape": {
+  "ok": true,
+  "full_name": "inkscape/inkscape",
+  "url": "https://github.com/inkscape/inkscape",
+  "stars": 4075,
+  "forks": 308,
+  "lang": null,
+  "license": null,
+  "archived": false,
+  "pushed": "2022-03-03",
+  "topics": []
+ },
+ "GNOME/gimp": {
+  "ok": true,
+  "full_name": "GNOME/gimp",
+  "url": "https://github.com/GNOME/gimp",
+  "stars": 6559,
+  "forks": 913,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": []
+ },
+ "jgraph/drawio": {
+  "ok": true,
+  "full_name": "jgraph/drawio",
+  "url": "https://github.com/jgraph/drawio",
+  "stars": 9110,
+  "forks": 1357,
+  "lang": "JavaScript",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "diagram",
+   "javascript",
+   "whiteboard"
+  ]
+ },
+ "GoogleChromeLabs/squoosh": {
+  "ok": true,
+  "full_name": "GoogleChromeLabs/squoosh",
+  "url": "https://github.com/GoogleChromeLabs/squoosh",
+  "stars": 26083,
+  "forks": 2200,
+  "lang": "TypeScript",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-10-22",
+  "topics": []
+ },
+ "FFmpeg/FFmpeg": {
+  "ok": true,
+  "full_name": "FFmpeg/FFmpeg",
+  "url": "https://github.com/FFmpeg/FFmpeg",
+  "stars": 66182,
+  "forks": 14485,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "audio",
+   "c",
+   "ffmpeg",
+   "fft",
+   "hevc",
+   "hls"
+  ]
+ },
+ "videolan/vlc": {
+  "ok": true,
+  "full_name": "videolan/vlc",
+  "url": "https://github.com/videolan/vlc",
+  "stars": 20283,
+  "forks": 6405,
+  "lang": "C",
+  "license": "GPL-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "c",
+   "framework",
+   "gplv2",
+   "lgpl",
+   "multimedia",
+   "open-source"
+  ]
+ },
+ "mpv-player/mpv": {
+  "ok": true,
+  "full_name": "mpv-player/mpv",
+  "url": "https://github.com/mpv-player/mpv",
+  "stars": 37652,
+  "forks": 3618,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "audio",
+   "c",
+   "ffmpeg",
+   "mplayer",
+   "mpv",
+   "multimedia"
+  ]
+ },
+ "yt-dlp/yt-dlp": {
+  "ok": true,
+  "full_name": "yt-dlp/yt-dlp",
+  "url": "https://github.com/yt-dlp/yt-dlp",
+  "stars": 204312,
+  "forks": 17954,
+  "lang": "Python",
+  "license": "Unlicense",
+  "archived": false,
+  "pushed": "2026-10-29",
+  "topics": [
+   "cli",
+   "downloader",
+   "python",
+   "sponsorblock",
+   "youtube-dl",
+   "youtube-downloader"
+  ]
+ },
+ "jellyfin/jellyfin": {
+  "ok": true,
+  "full_name": "jellyfin/jellyfin",
+  "url": "https://github.com/jellyfin/jellyfin",
+  "stars": 58880,
+  "forks": 5752,
+  "lang": "C#",
+  "license": "GPL-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "csharp",
+   "dotnet",
+   "hacktoberfest",
+   "jellyfin"
+  ]
+ },
+ "obsproject/obs-studio": {
+  "ok": true,
+  "full_name": "obsproject/obs-studio",
+  "url": "https://github.com/obsproject/obs-studio",
+  "stars": 78731,
+  "forks": 11003,
+  "lang": "C",
+  "license": "GPL-2.0",
+  "archived": false,
+  "pushed": "2026-10-29",
+  "topics": [
+   "c",
+   "c-plus-plus",
+   "directshow",
+   "facebook-live",
+   "ffmpeg",
+   "game-capture"
+  ]
+ },
+ "KDE/kdenlive": {
+  "ok": true,
+  "full_name": "KDE/kdenlive",
+  "url": "https://github.com/KDE/kdenlive",
+  "stars": 6019,
+  "forks": 555,
+  "lang": "C++",
+  "license": "GPL-3.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": []
+ },
+ "HandBrake/HandBrake": {
+  "ok": true,
+  "full_name": "HandBrake/HandBrake",
+  "url": "https://github.com/HandBrake/HandBrake",
+  "stars": 24841,
+  "forks": 1742,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "gplv2",
+   "multi-platform",
+   "video-transcoding"
+  ]
+ },
+ "keepassxreboot/keepassxc": {
+  "ok": true,
+  "full_name": "keepassxreboot/keepassxc",
+  "url": "https://github.com/keepassxreboot/keepassxc",
+  "stars": 29656,
+  "forks": 2001,
+  "lang": "C++",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "cross-platform",
+   "hacktoberfest",
+   "keepass",
+   "keepassxc",
+   "linux",
+   "macos"
+  ]
+ },
+ "bitwarden/clients": {
+  "ok": true,
+  "full_name": "bitwarden/clients",
+  "url": "https://github.com/bitwarden/clients",
+  "stars": 14123,
+  "forks": 2166,
+  "lang": "TypeScript",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "angular",
+   "bitwarden",
+   "browser-extension",
+   "chrome",
+   "cli",
+   "desktop"
+  ]
+ },
+ "tailscale/tailscale": {
+  "ok": true,
+  "full_name": "tailscale/tailscale",
+  "url": "https://github.com/tailscale/tailscale",
+  "stars": 38452,
+  "forks": 3405,
+  "lang": "Go",
+  "license": "BSD-3-Clause",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "2fa",
+   "oauth",
+   "sso",
+   "tailscale",
+   "vpn",
+   "wireguard"
+  ]
+ },
+ "wireshark/wireshark": {
+  "ok": true,
+  "full_name": "wireshark/wireshark",
+  "url": "https://github.com/wireshark/wireshark",
+  "stars": 10134,
+  "forks": 2249,
+  "lang": "C",
+  "license": "GPL-2.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "packet-capture",
+   "stratoshark",
+   "tshark",
+   "wireshark"
+  ]
+ },
+ "signalapp/Signal-Desktop": {
+  "ok": true,
+  "full_name": "signalapp/Signal-Desktop",
+  "url": "https://github.com/signalapp/Signal-Desktop",
+  "stars": 16640,
+  "forks": 3157,
+  "lang": "TypeScript",
+  "license": "AGPL-3.0",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": []
+ },
+ "OpenVPN/openvpn": {
+  "ok": true,
+  "full_name": "OpenVPN/openvpn",
+  "url": "https://github.com/OpenVPN/openvpn",
+  "stars": 14754,
+  "forks": 3424,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "security",
+   "vpn"
+  ]
+ },
+ "veracrypt/VeraCrypt": {
+  "ok": true,
+  "full_name": "veracrypt/VeraCrypt",
+  "url": "https://github.com/veracrypt/VeraCrypt",
+  "stars": 12022,
+  "forks": 1386,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-11-01",
+  "topics": [
+   "encryption",
+   "encryption-algorithms",
+   "encryption-decryption",
+   "idrix",
+   "veracrypt",
+   "veracrypt-source"
+  ]
+ },
+ "hashcat/hashcat": {
+  "ok": true,
+  "full_name": "hashcat/hashcat",
+  "url": "https://github.com/hashcat/hashcat",
+  "stars": 27217,
+  "forks": 3597,
+  "lang": "C",
+  "license": null,
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "c",
+   "cracking",
+   "cuda",
+   "gpgpu",
+   "hashcat",
+   "hashes"
+  ]
+ },
+ "torvalds/linux": {
+  "ok": true,
+  "full_name": "torvalds/linux",
+  "url": "https://github.com/torvalds/linux",
+  "stars": 254007,
+  "forks": 66943,
+  "lang": "C",
+  "license": "NOASSERTION",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": []
+ },
+ "tmux/tmux": {
+  "ok": true,
+  "full_name": "tmux/tmux",
+  "url": "https://github.com/tmux/tmux",
+  "stars": 50096,
+  "forks": 2985,
+  "lang": "C",
+  "license": "ISC",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": []
+ },
+ "microsoft/terminal": {
+  "ok": true,
+  "full_name": "microsoft/terminal",
+  "url": "https://github.com/microsoft/terminal",
+  "stars": 105300,
+  "forks": 9709,
+  "lang": "C++",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "cmd",
+   "command-line",
+   "console",
+   "contributions-welcome",
+   "good-first-issue",
+   "hacktoberfest"
+  ]
+ },
+ "PowerShell/PowerShell": {
+  "ok": true,
+  "full_name": "PowerShell/PowerShell",
+  "url": "https://github.com/PowerShell/PowerShell",
+  "stars": 55982,
+  "forks": 8522,
+  "lang": "C#",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "command-line",
+   "hacktoberfest",
+   "linux",
+   "macos",
+   "netcore",
+   "powershell"
+  ]
+ },
+ "nushell/nushell": {
+  "ok": true,
+  "full_name": "nushell/nushell",
+  "url": "https://github.com/nushell/nushell",
+  "stars": 40757,
+  "forks": 2318,
+  "lang": "Rust",
+  "license": "MIT",
+  "archived": false,
+  "pushed": "2026-10-31",
+  "topics": [
+   "nushell",
+   "rust",
+   "shell"
+  ]
+ },
+ "aristocratos/btop": {
+  "ok": true,
+  "full_name": "aristocratos/btop",
+  "url": "https://github.com/aristocratos/btop",
+  "stars": 35200,
+  "forks": 1252,
+  "lang": "C++",
+  "license": "Apache-2.0",
+  "archived": false,
+  "pushed": "2026-10-28",
+  "topics": []
+ },
+ "Ventoy/Ventoy": {
+  "ok": true,
+  "full_name": "ventoy/Ventoy",
+  "url": "https://github.com/ventoy/Ventoy",
+  "stars": 80513,
+  "forks": 5029,
+  "lang": "C",
+  "license": "GPL-3.0",
+  "archived": false,
+  "pushed": "2026-10-22",
+  "topics": [
+   "arm64",
+   "auto-install",
+   "bootable-usb",
+   "bsd",
+   "chromeos",
+   "iso-files"
+  ]
+ },
+ "pbatard/rufus": {
+  "ok": true,
+  "full_name": "pbatard/rufus",
+  "url": "https://github.com/pbatard/rufus",
+  "stars": 38200,
+  "forks": 3201,
+  "lang": "C",
+  "license": "GPL-3.0",
+  "archived": false,
+  "pushed": "2026-10-30",
+  "topics": [
+   "bios",
+   "boot",
+   "bootable-drives",
+   "freedos",
+   "gpt",
+   "grub"
+  ]
+ }
+}
